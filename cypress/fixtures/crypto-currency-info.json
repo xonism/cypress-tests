@@ -1,0 +1,7 @@
+{
+  "cryptoCurrency": "Bitcoin",
+  "cryptoCurrencySymbol": "BTC",
+  "cryptoMinAmount": "0.200000",
+  "cryptoMaxAmount": "2.000000",
+  "cryptoSliderStep": "0.200000"
+}

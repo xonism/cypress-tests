@@ -1,0 +1,9 @@
+{
+  "fiatCurrency": "Euro",
+  "fiatCurrencyCode": "EUR",
+  "fiatCurrencySymbol": "€",
+  "fiatMinAmount": "50.0",
+  "fiatMaxAmount": "500.0",
+  "fiatSliderStep": "50.0",
+  "fiatTargetAmount": "150.0"
+}

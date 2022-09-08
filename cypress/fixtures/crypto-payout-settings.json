@@ -1,0 +1,41 @@
+{
+  "BTC": {
+    "currencyTitle": "Bitcoin",
+    "currencySymbol": "BTC",
+    "payoutAddress": "tb1qrhqzduxevr3yvjdu54ak966qhfhj4g84uk3eky",
+    "payoutSettingTitle": "BTC Address",
+    "amount": 0.2,
+    "platform": {
+      "id": 8,
+      "id_name": "bitcoin",
+      "title": "Bitcoin",
+      "enabled": true
+    }
+  },
+  "LTC": {
+    "currencyTitle": "Litecoin",
+    "currencySymbol": "LTC",
+    "payoutAddress": "QUtpHc1ExnEc7zFcWyVDtToErRU1bZ972c",
+    "payoutSettingTitle": "LTC Address",
+    "amount": 5,
+    "platform": {
+      "id": 9,
+      "id_name": "litecoin",
+      "title": "Litecoin",
+      "enabled": true
+    }
+  },
+  "USDT": {
+    "currencyTitle": "Tether",
+    "currencySymbol": "USDT",
+    "payoutAddress": "0x04f535663110a392a6504839beed34e019fdb4e0",
+    "payoutSettingTitle": "USDT Address",
+    "amount": 100,
+    "platform": {
+      "id": 7,
+      "id_name": "ethereum",
+      "title": "Ethereum",
+      "enabled": true
+    }
+  }
+}
