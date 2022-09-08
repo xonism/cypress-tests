@@ -1,0 +1,14 @@
+{
+  "name": "cypress-test-confluence-page",
+  "version": "1.0.0",
+  "description": "update-confluence-page.js` has functions that parse through all `spec` files, extract test names (values after `describe` & `it`) & sends formatted test names to Confluence's `Automatic E2E Tests` page.",
+  "main": "update-confluence-page.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@actions/core": "^1.9.1",
+    "@types/node": "^17.0.23",
+    "node-fetch": "^3.2.10"
+  }
+}

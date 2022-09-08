@@ -1,0 +1,8 @@
+name: 'Run Script'
+inputs:
+  confluence-access-token:
+    required: true
+runs:
+  using: 'node16'
+  main: 'update-confluence-page.js'
+  

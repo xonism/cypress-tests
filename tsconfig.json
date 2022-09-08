@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": false,
+    "baseUrl": ".",
+    "lib": ["es2015", "es2017", "dom"],
+    "types": ["node", "cypress"],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "paths": {
+      "@fixtures/*": ["cypress/fixtures/*"],
+      "@support/*": ["cypress/support/*"],
+      "@entity/*": ["cypress/support/entity/*"],
+      "@selectors/*": ["selectors/*"]
+    }
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
